@@ -1,0 +1,41 @@
+package_name: fire_extinguish_model
+
+
+training_data_file: Acoustic_Extinguisher_Fire_Dataset.csv
+
+
+target: STATUS
+
+pipeline_name: fire_extinguish_model
+pipeline_save_file: fire_extinguish_model_output_v
+
+
+features:
+  - SIZE
+  - FUEL
+  - DISTANCE
+  - DESIBEL
+  - AIRFLOW
+  - FREQUENCY
+
+
+
+
+SIZE: SIZE
+FUEL: FUEL
+DISTANCE: DISTANCE
+DESIBEL: DESIBEL
+AIRFLOW: AIRFLOW
+FREQUENCY: FREQUENCY
+
+categorigal_features: FUEL
+
+
+test_size: 0.20
+
+
+random_state: 42
+
+
+n_estimators: 100
+max_depth: 10
