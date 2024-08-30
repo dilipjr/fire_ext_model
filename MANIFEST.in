@@ -10,7 +10,7 @@ include fire_extinguish_model/VERSION
 include fire_extinguish_model/config.yml
 
 include ./requirements/requirements.txt
-#include ./requirements/test_requirements.txt
+
 exclude *.log
 exclude *.cfg
 
