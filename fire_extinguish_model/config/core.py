@@ -12,6 +12,7 @@ from strictyaml import YAML, load
 
 import fire_extinguish_model
 
+# testing git push
 
 PACKAGE_ROOT = Path(fire_extinguish_model.__file__).resolve().parent
 ROOT = PACKAGE_ROOT.parent
