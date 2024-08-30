@@ -1,13 +1,13 @@
 include *.txt
 include *.md
 include *.pkl
-recursive-include ./titanic_model *
+recursive-include ./fire_extinguish_model *
 
-include titanic_model/datasets/titanic.csv
-include titanic_model/datasets/test.csv
-include titanic_model/trained_models/*.pkl
-include titanic_model/VERSION
-include titanic_model/config.yml
+include fire_extinguish_model/datasets/Acoustic_Extinguisher_Fire_Dataset.csv
+
+include fire_extinguish_model/trained_models/*.pkl
+include fire_extinguish_model/VERSION
+include fire_extinguish_model/config.yml
 
 include ./requirements/requirements.txt
 include ./requirements/test_requirements.txt
