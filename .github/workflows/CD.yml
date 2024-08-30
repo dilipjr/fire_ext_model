@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted
+    runs-on: my-EC2-runner
 
     steps:
       - name: Pull Docker Image
