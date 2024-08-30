@@ -6,8 +6,8 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = 'titanic_model'
-DESCRIPTION = "Titanic dataset classification model package "
+NAME = 'fire_extinguish_model'
+DESCRIPTION = "fire extinguish model package "
 EMAIL = "------"
 AUTHOR = "----------"
 REQUIRES_PYTHON = ">=3.7.0"
