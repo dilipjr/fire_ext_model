@@ -6,7 +6,7 @@ from pathlib import Path
 from setuptools import find_packages, setup
 
 # Package meta-data.
-NAME = 'fire_extinguish_model'
+NAME = 'fire_ext_model'
 DESCRIPTION = "fire extinguish model package "
 EMAIL = "------"
 AUTHOR = "----------"
