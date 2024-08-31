@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: fire_ext_runner
+    runs-on: self-hosted
 
     steps:
       - name: Pull Docker Image
