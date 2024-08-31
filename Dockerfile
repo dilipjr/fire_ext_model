@@ -2,10 +2,10 @@
 FROM python:3.10
 
 # copy application files
-ADD /fire_ext_model_api /fire_ext_model_api/
+ADD /fire_extinguish_model_api /fire_extinguish_model_api/
 
 # specify working directory
-WORKDIR /fire_ext_model_api
+WORKDIR /fire_extinguish_model_api
 
 # update pip
 RUN pip install --upgrade pip
